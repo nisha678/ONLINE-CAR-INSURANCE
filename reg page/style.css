@@ -1,0 +1,149 @@
+body
+{
+    background-image: url(pic1.jpg);
+    margin-top: 120px !important;
+}
+.register-left
+{
+    text-align:center;
+    color: #fff;
+    padding: 50px;
+}
+p{
+ color:Grey;
+    font-family:Arial;
+	font-size:20px;
+	font-weight:lighter;
+	padding:3px;
+	margin:0;
+}
+
+.register-left img
+{
+    margin-top: 10px;
+    margin-bottom: 18px;
+    width:150px;
+    animation: mover ls infinite alternate;
+}
+.register-left p
+{
+    padding: 20px 20px 0;
+}
+.register-left .btn-primary
+{
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #f8f8f8;
+    font-weight:600;
+    color: #555;
+    margin-top: 20px;
+    padding: 10px;
+}
+.register-form
+{
+    
+}
+.register-left .btn-primary :hover
+{
+    background: #000;
+}
+
+
+.register-right h2
+{
+    text-align: center;
+    margin-bottom:10px;
+    color:#555;
+}
+#z{
+
+	height:40px;
+	background:salmon;
+	color:White;
+	border: none;
+	border-radius:12px;
+	margin:7px;
+	width:90%;
+	font-size:20px;
+	font-weight:Lighter;
+	font-family:arial;
+}
+#x{
+	width:450px;
+    height: 1000px;
+    background: rgba(255,255,255,1);
+    top: 50%;
+    bottom:80%;
+	right:80%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+     border-radius:10px;
+    padding: 40px 20px;
+	
+}
+.register-form
+{
+    padding: 0px;
+}
+.register-form input[type="text"],input[type="tel"],input[type="email"]
+{
+    border: none;
+    border: 1px solid grey;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-color:grey;
+    color:#fff;
+    font-size: 16px;
+}
+textarea{
+    border: none;
+    border: 1px solid grey;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width:100%;
+    color:#fff;
+    font-size: 16px;
+}
+}
+
+select{
+    border: none;
+    border: 1px solid grey;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    
+    color:#fff;
+    font-size: 16px;
+}
+.register-right .btn-primary
+{
+    float: right;
+
+    border-radius: 1.5 rem;
+    border: none;
+    width: 120px;
+    background: #ff9800;
+    font-weight:600;
+    color:grey;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.register-right .btn-primary:hover 
+{
+    background:#ff5723;
+}
+
+
+}
+@keyframes mover{
+    0%{transform: translateX(0);}
+    100%{ transform: translateX(-10px);}
+}
+
+
