@@ -1,0 +1,145 @@
+img{
+    height: 900px;
+    width: 1000px;
+    
+	background-attachment:fixed;
+	background-position:relative;
+	background-repeat:no-repeat;
+	background-size:100%;
+	
+    
+}
+
+.form{
+	width:400px;
+    height: 500px;
+    background: rgba(255,255,255,1);
+    top: 50%;
+    bottom:80%;
+	right:80%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+     border-radius:10px;
+    padding: 40px 20px;
+	
+}
+.form p{
+	margin:0;
+	padding:0;
+
+
+}
+.form h1{
+	text-shadow: 1px 2px 3px grey;
+	color:grey;
+	margin:0;
+	padding:0 10px 20px 10px;
+	text-align:center;
+	font-size:35px;
+	
+	font-family:double struck;
+}
+
+.form form{
+	margin:0;
+	padding:10px;
+	font-family:Arial;
+   font-size:25px;
+	color:grey;
+	
+}
+.form input{
+	width:100%;
+	
+	margin-bottom:20px;
+
+}
+.form input[type="text"],input[type="password"]
+{
+	
+    width: 100%;
+  padding: 12px 20px;
+  margin: 7px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  font-family:Arial;
+  border-radius:8px;
+  font-size:20px;
+  height:40px;
+ 
+
+}
+.form input[type="email"],input[type="password"]
+{
+	
+    width: 100%;
+  padding: 12px 20px;
+  margin: 7px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  font-family:Arial;
+  border-radius:8px;
+  font-size:20px;
+  height:40px;
+ 
+
+}
+.form input[type="submit"]
+{    
+   
+    border:none;
+    height: 45px;
+    background:salmon ;
+    color: white;
+	font-size: 25px;
+    border-radius: 12px;
+	font-family:Arial;
+}
+ .form a{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+	padding-top:20px;
+	font-family:Arial;
+	font-weight:lighter;
+	
+	
+ }
+ label{
+	 text-decoration: none;
+    font-size: 15px;
+    color: black;
+	
+ }
+footer{
+   
+    height: 80px;
+    padding-top:30px;
+    padding-bottom:60px;
+    padding-left: 800px;
+    margin-top:40px;
+    
+   
+}
+.carousel-caption h1{
+	font-family: 'Arial';
+    font-size: 50px;
+    color:white;
+  
+    text-shadow: 1px 2px 3px black;
+	float:left;
+	
+}
+.carousel-caption p{
+	font-family: 'Arial';
+    font-size: 30px;
+    color:white;
+    
+	float:left;
+	
+	padding-right:200px;
+	padding-bottom:680px;
+    text-shadow: 1px 2px 3px black;
+}
+
